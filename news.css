@@ -1,0 +1,85 @@
+body{
+    background:black;
+    margin:0;
+    padding:0;
+
+}
+h1.display-5{
+    background: rgb(0, 0, 0);
+    border-bottom:1px solid #ccc;
+    margin:10px 0;
+    padding:5px;
+    color: lightslategray;
+    font-weight:bold;
+font-size:20px
+}
+img{
+    width:100%;
+    border:1px solid #ccc;
+    padding:7px;
+    background: #fff;
+}
+#left,#right{
+    background:#fff;
+    margin:10px 0px;
+    border-right: 2px solid red !important;
+    padding:10px;
+}
+.newsH1{
+    color: dimgray;
+    text-shadow:1px 1px 1px #111;
+    border-bottom:2px solid #ccc;
+    border-bottom: 10px;
+    background: #fff;
+    padding:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.h1Title{
+    font-size:16px;
+    font-weight:bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding:13px 0px;
+}
+#right{
+    border-left:2px solid red !important;
+    border-right:none !important;
+}
+/*weather css*/
+.card-body1{
+    position: relative;
+
+}
+.card-body1 img {
+    width: 176px;
+    position: absolute;
+    right: -32px;
+    top: -56px;
+    border: none;
+    background: transparent;
+}
+#middleBlock{
+    background: #fff;
+    border-right: 2px solid red !important;
+    border-left:2px solid red !important;
+}
+#middleBlock .newsH1{
+    border-bottom:none;
+}
+#template{
+    background:url('./thunderstorm-3440450_960_720.jpg');
+    color:#fff;
+    padding:10px;
+    height: 195px;
+    margin: 6px;
+}
+a{
+    color:#111;
+}
+a:hover{
+    color:#999;
+    text-decoration: underline;
+}
